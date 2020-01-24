@@ -1,26 +1,39 @@
-.navbar {
-    background-color: orange;
-    flex-direction: row;
+.navbar{
     display: flex;
+    background-color: darkorange;
     justify-content: space-around;
-
-
 }
+ 
 .content {
-    flex-direction: row;
     display: flex;
-    align-content: center;
     background-color: blanchedalmond;
-    width: 100%;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-items: flex-end;
+    justify-content: center;
+ 
 }
-.news { 
-    align-content: center;
-    background-color: blanchedalmond;
-    width: 33%;
+ 
+.news{
+    width: 30%;
+}
+ 
+h1, h1+p, .navbar p{
+    text-align: center;
+ 
+}
+ 
+.content h1,p{
+    display: block;
+    width: 100%;
 }
 
-.breaking {
-    width: 33%;
-    align-content: center;
+
+#breaking h3{
+    
+     font-size: 300%; 
+ }
+#breaking{
+
+    order: -1;
+
 }
